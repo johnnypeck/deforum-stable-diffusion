@@ -45,6 +45,11 @@ def load_model(root, load_on_run_all=True, check_sha256=True):
 
     model_map = {
         "512-base-ema.ckpt": {
+            'sha256': 'ad2a33c361c1f593c4a1fb32ea81afce2b5bb7d1983c6b94793a26a3b54b08a0',
+            'url': 'https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt',
+            'requires_login': True,
+            },
+        "512-base-ema.ckpt": {
             'sha256': 'd635794c1fedfdfa261e065370bea59c651fc9bfa65dc6d67ad29e11869a1824',
             'url': 'https://huggingface.co/stabilityai/stable-diffusion-2-base/resolve/main/512-base-ema.ckpt',
             'requires_login': True,
